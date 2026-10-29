@@ -1,0 +1,31 @@
+{
+  "run_id": "G0_RC_released",
+  "timestamp": "2026-10-08T09:30:27.126466+00:00",
+  "git_hash": "3810f48",
+  "model_type": "receptor-centric",
+  "checkpoint": "data/raw/sppider_seq_receptor.pt",
+  "config": {
+    "run_type": "eval",
+    "model_type": "receptor-centric",
+    "checkpoint": "data/raw/sppider_seq_receptor.pt",
+    "data_dir": "SPPIDER-seq-datasets",
+    "emb_dir": "data/emb",
+    "split": "blind",
+    "threshold": 0.5,
+    "seed": 0
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "auroc": 0.9592,
+    "prauc": 0.8614,
+    "acc": 0.9923,
+    "recall": 0.7676,
+    "precision": 0.9676,
+    "f1": 0.8561,
+    "mcc": 0.8582,
+    "lift": 28.8815,
+    "n_pos": 6300,
+    "n_neg": 204919,
+    "threshold": 0.5
+  }
+}

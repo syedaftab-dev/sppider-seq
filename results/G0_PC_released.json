@@ -1,0 +1,31 @@
+{
+  "run_id": "G0_PC_released",
+  "timestamp": "2026-10-08T09:31:06.775189+00:00",
+  "git_hash": "3810f48",
+  "model_type": "peptide-centric",
+  "checkpoint": "data/raw/sppider_seq_peptide.pt",
+  "config": {
+    "run_type": "eval",
+    "model_type": "peptide-centric",
+    "checkpoint": "data/raw/sppider_seq_peptide.pt",
+    "data_dir": "SPPIDER-seq-datasets",
+    "emb_dir": "data/emb",
+    "split": "blind",
+    "threshold": 0.5,
+    "seed": 0
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "auroc": 0.959,
+    "prauc": 0.6391,
+    "acc": 0.9891,
+    "recall": 0.5097,
+    "precision": 0.7464,
+    "f1": 0.6058,
+    "mcc": 0.6117,
+    "lift": 38.7641,
+    "n_pos": 5666,
+    "n_neg": 338007,
+    "threshold": 0.5
+  }
+}
