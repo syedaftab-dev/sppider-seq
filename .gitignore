@@ -20,3 +20,7 @@ data/raw/
 # Models / outputs
 outputs/
 checkpoints/
+
+models/
+*.pt
+*.npy
