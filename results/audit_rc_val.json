@@ -1,0 +1,95 @@
+{
+  "run_id": "audit_rc_val",
+  "model_type": "receptor-centric",
+  "split": "val",
+  "controls": {
+    "C0_true": {
+      "auroc": 0.9439,
+      "prauc": 0.8205,
+      "acc": 0.9895,
+      "recall": 0.7415,
+      "precision": 0.9495,
+      "f1": 0.8327,
+      "mcc": 0.8341,
+      "lift": 23.1963,
+      "n_pos": 2027,
+      "n_neg": 55280,
+      "threshold": 0.5
+    },
+    "C1_scrambled_s0": {
+      "auroc": 0.9434,
+      "prauc": 0.82,
+      "acc": 0.9894,
+      "recall": 0.741,
+      "precision": 0.9494,
+      "f1": 0.8324,
+      "mcc": 0.8338,
+      "lift": 23.1835,
+      "n_pos": 2027,
+      "n_neg": 55280,
+      "threshold": 0.5
+    },
+    "C4_zero": {
+      "auroc": 0.5,
+      "prauc": 0.0354,
+      "acc": 0.9646,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0,
+      "mcc": 0.0,
+      "lift": 1.0,
+      "n_pos": 2027,
+      "n_neg": 55280,
+      "threshold": 0.5
+    },
+    "C4_mean": {
+      "auroc": 0.9386,
+      "prauc": 0.76,
+      "acc": 0.9811,
+      "recall": 0.4889,
+      "precision": 0.9538,
+      "f1": 0.6464,
+      "mcc": 0.6756,
+      "lift": 21.4864,
+      "n_pos": 2027,
+      "n_neg": 55280,
+      "threshold": 0.5
+    },
+    "C5_agg_mean": {
+      "auroc": 0.9435,
+      "prauc": 0.8198,
+      "acc": 0.9894,
+      "recall": 0.74,
+      "precision": 0.9494,
+      "f1": 0.8317,
+      "mcc": 0.8332,
+      "lift": 23.1784,
+      "n_pos": 2027,
+      "n_neg": 55280,
+      "threshold": 0.5
+    },
+    "C5_agg_logsumexp": {
+      "auroc": 0.9438,
+      "prauc": 0.8203,
+      "acc": 0.9895,
+      "recall": 0.7425,
+      "precision": 0.9489,
+      "f1": 0.8331,
+      "mcc": 0.8344,
+      "lift": 23.1925,
+      "n_pos": 2027,
+      "n_neg": 55280,
+      "threshold": 0.5
+    }
+  },
+  "audit_metrics": {
+    "partner_sensitivity_spearman_dist": 0.17190800638795947,
+    "cognate_discrimination_top1_acc": 0.2857142857142857,
+    "cognate_discrimination_mrr": 0.497859143657463
+  },
+  "c0_cluster_bootstrap_mcc_ci95": {
+    "mean": 0.7711640166336009,
+    "ci_lower": 0.7041462199575664,
+    "ci_upper": 0.8400040489569086
+  }
+}

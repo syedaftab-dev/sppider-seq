@@ -1,0 +1,74 @@
+{
+  "strict_blind_rc": {
+    "cutoff": 0.25,
+    "model_type": "receptor-centric",
+    "n_strict_pairs": 42,
+    "metrics": {
+      "auroc": 0.9586,
+      "prauc": 0.8398,
+      "acc": 0.992,
+      "recall": 0.7388,
+      "precision": 0.9887,
+      "f1": 0.8457,
+      "mcc": 0.8511,
+      "lift": 28.2132,
+      "n_pos": 827,
+      "n_neg": 26955,
+      "threshold": 0.5
+    }
+  },
+  "strict_blind_pc": {
+    "cutoff": 0.25,
+    "model_type": "peptide-centric",
+    "n_strict_pairs": 49,
+    "metrics": {
+      "auroc": 0.9709,
+      "prauc": 0.7157,
+      "acc": 0.9907,
+      "recall": 0.5467,
+      "precision": 0.854,
+      "f1": 0.6667,
+      "mcc": 0.6792,
+      "lift": 41.9793,
+      "n_pos": 492,
+      "n_neg": 28366,
+      "threshold": 0.5
+    }
+  },
+  "strict_blind_relaxed_rc": {
+    "cutoff": 0.3,
+    "model_type": "receptor-centric",
+    "n_strict_pairs": 44,
+    "metrics": {
+      "auroc": 0.9598,
+      "prauc": 0.8408,
+      "acc": 0.9919,
+      "recall": 0.7397,
+      "precision": 0.9859,
+      "f1": 0.8453,
+      "mcc": 0.8504,
+      "lift": 27.9728,
+      "n_pos": 853,
+      "n_neg": 27525,
+      "threshold": 0.5
+    }
+  },
+  "strict_blind_relaxed_pc": {
+    "cutoff": 0.3,
+    "model_type": "peptide-centric",
+    "n_strict_pairs": 50,
+    "metrics": {
+      "auroc": 0.9673,
+      "prauc": 0.7068,
+      "acc": 0.9902,
+      "recall": 0.5391,
+      "precision": 0.8545,
+      "f1": 0.6611,
+      "mcc": 0.6744,
+      "lift": 40.0338,
+      "n_pos": 512,
+      "n_neg": 28488,
+      "threshold": 0.5
+    }
+  }
+}

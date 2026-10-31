@@ -1,0 +1,95 @@
+{
+  "run_id": "audit_pc_val",
+  "model_type": "peptide-centric",
+  "split": "val",
+  "controls": {
+    "C0_true": {
+      "auroc": 0.9527,
+      "prauc": 0.6156,
+      "acc": 0.9873,
+      "recall": 0.5275,
+      "precision": 0.6682,
+      "f1": 0.5895,
+      "mcc": 0.5874,
+      "lift": 35.4727,
+      "n_pos": 1985,
+      "n_neg": 112403,
+      "threshold": 0.5
+    },
+    "C1_scrambled_s0": {
+      "auroc": 0.9526,
+      "prauc": 0.6131,
+      "acc": 0.9873,
+      "recall": 0.5259,
+      "precision": 0.6692,
+      "f1": 0.589,
+      "mcc": 0.587,
+      "lift": 35.3298,
+      "n_pos": 1985,
+      "n_neg": 112403,
+      "threshold": 0.5
+    },
+    "C4_zero": {
+      "auroc": 0.5,
+      "prauc": 0.0174,
+      "acc": 0.9826,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0,
+      "mcc": 0.0,
+      "lift": 1.0,
+      "n_pos": 1985,
+      "n_neg": 112403,
+      "threshold": 0.5
+    },
+    "C4_mean": {
+      "auroc": 0.887,
+      "prauc": 0.355,
+      "acc": 0.9848,
+      "recall": 0.2252,
+      "precision": 0.692,
+      "f1": 0.3398,
+      "mcc": 0.3893,
+      "lift": 20.4567,
+      "n_pos": 1985,
+      "n_neg": 112403,
+      "threshold": 0.5
+    },
+    "C5_agg_mean": {
+      "auroc": 0.9523,
+      "prauc": 0.6101,
+      "acc": 0.9873,
+      "recall": 0.5224,
+      "precision": 0.6712,
+      "f1": 0.5875,
+      "mcc": 0.5859,
+      "lift": 35.1563,
+      "n_pos": 1985,
+      "n_neg": 112403,
+      "threshold": 0.5
+    },
+    "C5_agg_logsumexp": {
+      "auroc": 0.9525,
+      "prauc": 0.6179,
+      "acc": 0.9871,
+      "recall": 0.5426,
+      "precision": 0.6555,
+      "f1": 0.5937,
+      "mcc": 0.5899,
+      "lift": 35.6089,
+      "n_pos": 1985,
+      "n_neg": 112403,
+      "threshold": 0.5
+    }
+  },
+  "audit_metrics": {
+    "partner_sensitivity_spearman_dist": 0.2828811518111917,
+    "cognate_discrimination_top1_acc": 0.6358695652173914,
+    "cognate_discrimination_mrr": 0.762799971767363
+  },
+  "c0_cluster_bootstrap_mcc_ci95": {
+    "mean": 0.5093163125092188,
+    "ci_lower": 0.4586969108775272,
+    "ci_upper": 0.5712060385610017
+  }
+}
