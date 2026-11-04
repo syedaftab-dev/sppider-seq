@@ -1,0 +1,276 @@
+{
+  "run_id": "M1b_PC_seed0",
+  "variant": "M1b",
+  "model_type": "peptide-centric",
+  "seed": 0,
+  "lr": 0.0003,
+  "best_val_loss": 0.1320579164337529,
+  "best_val_metrics": {
+    "auroc": 0.8553,
+    "prauc": 0.1851,
+    "acc": 0.9828,
+    "recall": 0.0418,
+    "precision": 0.5685,
+    "f1": 0.0779,
+    "mcc": 0.1509,
+    "lift": 10.6695,
+    "n_pos": 1985,
+    "n_neg": 112403,
+    "threshold": 0.5
+  },
+  "checkpoint": "models/M1b_PC_seed0.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.16101600132393756,
+      "val_loss": 0.14046876520201887,
+      "val_metrics": {
+        "auroc": 0.8354,
+        "prauc": 0.1642,
+        "acc": 0.9826,
+        "recall": 0.0393,
+        "precision": 0.4671,
+        "f1": 0.0725,
+        "mcc": 0.1317,
+        "lift": 9.4619,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1412442784006307,
+      "val_loss": 0.1389118376309457,
+      "val_metrics": {
+        "auroc": 0.8436,
+        "prauc": 0.1766,
+        "acc": 0.9828,
+        "recall": 0.0156,
+        "precision": 0.6458,
+        "f1": 0.0305,
+        "mcc": 0.0986,
+        "lift": 10.1739,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.13421957551573332,
+      "val_loss": 0.13616940270825897,
+      "val_metrics": {
+        "auroc": 0.8519,
+        "prauc": 0.1731,
+        "acc": 0.9824,
+        "recall": 0.07,
+        "precision": 0.4603,
+        "f1": 0.1216,
+        "mcc": 0.1745,
+        "lift": 9.9773,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1263974136348426,
+      "val_loss": 0.1320579164337529,
+      "val_metrics": {
+        "auroc": 0.8553,
+        "prauc": 0.1851,
+        "acc": 0.9828,
+        "recall": 0.0418,
+        "precision": 0.5685,
+        "f1": 0.0779,
+        "mcc": 0.1509,
+        "lift": 10.6695,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.11823236043501763,
+      "val_loss": 0.13771581590054152,
+      "val_metrics": {
+        "auroc": 0.8521,
+        "prauc": 0.1736,
+        "acc": 0.9828,
+        "recall": 0.0423,
+        "precision": 0.549,
+        "f1": 0.0786,
+        "mcc": 0.149,
+        "lift": 10.0017,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.11128452198908609,
+      "val_loss": 0.13399541265655146,
+      "val_metrics": {
+        "auroc": 0.8539,
+        "prauc": 0.1849,
+        "acc": 0.9826,
+        "recall": 0.073,
+        "precision": 0.4983,
+        "f1": 0.1274,
+        "mcc": 0.186,
+        "lift": 10.6529,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1051209032017215,
+      "val_loss": 0.1368773418944329,
+      "val_metrics": {
+        "auroc": 0.8589,
+        "prauc": 0.1847,
+        "acc": 0.9828,
+        "recall": 0.0569,
+        "precision": 0.5512,
+        "f1": 0.1032,
+        "mcc": 0.1732,
+        "lift": 10.6434,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0963274281058983,
+      "val_loss": 0.1372169198812512,
+      "val_metrics": {
+        "auroc": 0.8548,
+        "prauc": 0.184,
+        "acc": 0.9828,
+        "recall": 0.0625,
+        "precision": 0.5322,
+        "f1": 0.1118,
+        "mcc": 0.1781,
+        "lift": 10.6055,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.09034531186608707,
+      "val_loss": 0.14967632444534937,
+      "val_metrics": {
+        "auroc": 0.8467,
+        "prauc": 0.1615,
+        "acc": 0.9821,
+        "recall": 0.0579,
+        "precision": 0.3925,
+        "f1": 0.101,
+        "mcc": 0.1456,
+        "lift": 9.307,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.08478629835902364,
+      "val_loss": 0.14112690032925457,
+      "val_metrics": {
+        "auroc": 0.8447,
+        "prauc": 0.174,
+        "acc": 0.9825,
+        "recall": 0.068,
+        "precision": 0.4737,
+        "f1": 0.1189,
+        "mcc": 0.1746,
+        "lift": 10.0273,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.07937926044013369,
+      "val_loss": 0.14592710896091454,
+      "val_metrics": {
+        "auroc": 0.8485,
+        "prauc": 0.1676,
+        "acc": 0.9824,
+        "recall": 0.069,
+        "precision": 0.4507,
+        "f1": 0.1197,
+        "mcc": 0.1713,
+        "lift": 9.6606,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.07570609901146752,
+      "val_loss": 0.1400837045436239,
+      "val_metrics": {
+        "auroc": 0.853,
+        "prauc": 0.1789,
+        "acc": 0.9818,
+        "recall": 0.0872,
+        "precision": 0.3888,
+        "f1": 0.1424,
+        "mcc": 0.1777,
+        "lift": 10.3082,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.07149111528109708,
+      "val_loss": 0.14999755430440215,
+      "val_metrics": {
+        "auroc": 0.8363,
+        "prauc": 0.1633,
+        "acc": 0.9827,
+        "recall": 0.066,
+        "precision": 0.5038,
+        "f1": 0.1167,
+        "mcc": 0.1778,
+        "lift": 9.412,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.06721059893831037,
+      "val_loss": 0.14464190866008564,
+      "val_metrics": {
+        "auroc": 0.8467,
+        "prauc": 0.1734,
+        "acc": 0.9821,
+        "recall": 0.0902,
+        "precision": 0.4293,
+        "f1": 0.149,
+        "mcc": 0.1908,
+        "lift": 9.9929,
+        "n_pos": 1985,
+        "n_neg": 112403,
+        "threshold": 0.5
+      }
+    }
+  ]
+}
