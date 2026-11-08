@@ -1,0 +1,31 @@
+{
+  "run_id": "BLIND_RC_M0_V1_seed0",
+  "timestamp": "2026-10-29T05:13:14.417982+00:00",
+  "git_hash": "9383de1",
+  "model_type": "receptor-centric",
+  "checkpoint": "models/RC_M0_V1_seed0.pt",
+  "config": {
+    "run_type": "eval",
+    "model_type": "receptor-centric",
+    "checkpoint": "data/raw/sppider_seq_receptor.pt",
+    "data_dir": "SPPIDER-seq-datasets",
+    "emb_dir": "data/emb",
+    "split": "blind",
+    "threshold": 0.5,
+    "seed": 0
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "auroc": 0.7303,
+    "prauc": 0.1618,
+    "acc": 0.9629,
+    "recall": 0.1817,
+    "precision": 0.2993,
+    "f1": 0.2262,
+    "mcc": 0.2151,
+    "lift": 5.4251,
+    "n_pos": 6300,
+    "n_neg": 204919,
+    "threshold": 0.5
+  }
+}
